@@ -1,6 +1,6 @@
 [
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_smock_ai",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -16,7 +16,7 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_sailor_outfit_shota",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -31,7 +31,7 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_corset_maki",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -46,7 +46,7 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_shirt_maki",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -61,7 +61,7 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_breastplate_zunko",
     "id_suffix": "voiro_breastplate_zunko2",
     "category": "CC_VOIRO",
@@ -93,7 +93,7 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_blouse_tsuzumi",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -108,7 +108,7 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_vest_seika",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -132,7 +132,13 @@
     "difficulty": 1,
     "time": "5 m",
     "autolearn": false,
-    "book_learn": [ [ "mag_subculjapan2012", 3 ], [ "mag_subculjapan2016", 2 ], [ "mag_subculjapan2018", 2 ], [ "mag_subculjapan2020", 2 ], [ "tailor_japanese", 1 ] ],
+    "book_learn": [
+      [ "mag_subculjapan2012", 3 ],
+      [ "mag_subculjapan2016", 2 ],
+      [ "mag_subculjapan2018", 2 ],
+      [ "mag_subculjapan2020", 2 ],
+      [ "tailor_japanese", 1 ]
+    ],
     "components": [ [ [ "rag", 3 ] ], [ [ "bleach", 1 ] ], [ [ "water", 3 ], [ "water_clean", 3 ] ] ],
     "flags": [ "SECRET" ]
   },
@@ -152,7 +158,7 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_costume_tuina",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -242,7 +248,7 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_dress_shirt_takahashi",
     "category": "CC_VOIRO",
     "activity_level": "LIGHT_EXERCISE",
@@ -257,7 +263,7 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_dress_shirt_seika",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -284,12 +290,7 @@
     "book_learn": [ [ "mag_subculjapan2012", 2 ], [ "mag_virtualsinger", 3 ] ],
     "using": [ [ "sewing_standard", 12 ] ],
     "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 15, "LIST" ] ] ],
-    "components": [
-      [ [ "rag", 6 ] ],
-      [ [ "plastic_chunk", 2 ] ],
-      [ [ "lens", 2 ] ],
-      [ [ "lens_small", 2 ] ]
-    ],
+    "components": [ [ [ "rag", 6 ] ], [ [ "plastic_chunk", 2 ] ], [ [ "lens", 2 ] ], [ [ "lens_small", 2 ] ] ],
     "flags": [ "SECRET" ]
   },
   {
@@ -308,7 +309,7 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_dress_akane",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -323,7 +324,7 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_dress_aoi",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -338,7 +339,7 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_dress_galaco",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -458,7 +459,7 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_sleeveless_miku",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -473,7 +474,7 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_dress_shirt_yuzuru",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -488,7 +489,7 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_blouse_nozomi",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -578,7 +579,7 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_dress_shirt_zundamon",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -592,8 +593,9 @@
     "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "rag", 8 ] ] ],
     "flags": [ "SECRET" ]
-  },{
-    "type" : "recipe",
+  },
+  {
+    "type": "recipe",
     "result": "voiro_dress_metan",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -607,8 +609,9 @@
     "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "rag", 15 ] ] ],
     "flags": [ "SECRET" ]
-  },{
-    "type" : "recipe",
+  },
+  {
+    "type": "recipe",
     "result": "voiro_shirt_tumugi",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -622,8 +625,9 @@
     "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "rag", 10 ] ] ],
     "flags": [ "SECRET" ]
-  },{
-    "type" : "recipe",
+  },
+  {
+    "type": "recipe",
     "result": "voiro_cardigan_tumugi",
     "activity_level": "LIGHT_EXERCISE",
     "category": "CC_VOIRO",
@@ -634,8 +638,9 @@
     "autolearn": false,
     "book_learn": [ [ "mag_subculjapan2021", 2 ] ],
     "using": [ [ "tailoring_wool_knitting", 550 ] ]
-  },{
-    "type" : "recipe",
+  },
+  {
+    "type": "recipe",
     "result": "voiro_necktie_tumugi",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -649,8 +654,9 @@
     "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "rag", 4 ] ] ],
     "flags": [ "SECRET" ]
-  },{
-    "type" : "recipe",
+  },
+  {
+    "type": "recipe",
     "result": "voiro_nurse_clothes_hau",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -664,23 +670,9 @@
     "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "rag", 10 ] ] ],
     "flags": [ "SECRET" ]
-  },{
-    "type" : "recipe",
-    "result": "voiro_skirt_rithu",
-    "category": "CC_VOIRO",
-    "subcategory": "CSC_VOIRO_ARMOR",
-    "activity_level": "LIGHT_EXERCISE",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "time": "45 m",
-    "autolearn": false,
-    "book_learn": [ [ "mag_subculjapan2021", 2 ] ],
-    "using": [ [ "filament", 10 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "rag", 4 ] ] ],
-    "flags": [ "SECRET" ]
-  },{
-    "type" : "recipe",
+  },
+  {
+    "type": "recipe",
     "result": "voiro_jacket_rithu",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -694,8 +686,9 @@
     "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "rag", 10 ] ] ],
     "flags": [ "SECRET" ]
-  },{
-    "type" : "recipe",
+  },
+  {
+    "type": "recipe",
     "result": "voiro_dress_himari",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -711,7 +704,7 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "voiro_shirt_mochiko",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",

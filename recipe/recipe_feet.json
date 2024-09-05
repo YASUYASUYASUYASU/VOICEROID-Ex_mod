@@ -528,24 +528,6 @@
   },
   {
     "type": "recipe",
-    "result": "voiro_sneakers_maki",
-    "category": "CC_VOIRO",
-    "subcategory": "CSC_VOIRO_ARMOR",
-    "activity_level": "LIGHT_EXERCISE",
-    "skill_used": "tailor",
-    "difficulty": 3,
-    "time": "35 m",
-    "autolearn": false,
-    "book_learn": [ [ "mag_subculjapan2012", 2 ], [ "mag_animecon", 3 ] ],
-    "using": [ [ "sewing_standard", 12 ] ],
-    "components": [
-      [ [ "leather", 3 ], [ "tanned_hide", 1 ] ],
-      [ [ "rag", 6 ] ]
-    ],
-    "flags": [ "SECRET" ]
-  },
-  {
-    "type": "recipe",
     "result": "voiro_loafers_nozomi",
     "category": "CC_VOIRO",
     "subcategory": "CSC_VOIRO_ARMOR",
@@ -638,21 +620,6 @@
     "book_learn": [ [ "mag_subculjapan2021", 1 ] ],
     "using": [ [ "sewing_standard", 10 ] ],
     "components": [ [ [ "leather", 5 ] ] ],
-    "flags": [ "SECRET" ]
-  },
-  {
-    "type" : "recipe",
-    "result": "voiro_socks_tumugi",
-    "category": "CC_VOIRO",
-    "subcategory": "CSC_ARMOR_LEGS",
-    "activity_level": "LIGHT_EXERCISE",
-    "skill_used": "tailor",
-    "difficulty": 3,
-    "time": "30 m",
-    "autolearn": false,
-    "book_learn": [ [ "mag_subculjapan2021", 2 ] ],
-    "using": [ [ "sewing_standard", 12 ] ],
-    "components": [ [ [ "rag", 6 ] ] ],
     "flags": [ "SECRET" ]
   },
   {

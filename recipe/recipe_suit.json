@@ -22,7 +22,6 @@
     ],
     "components": [
       [ [ "power_supply", 4 ] ],
-      [ [ "battery", 200 ] ],
       [ [ "drive_by_wire_controls", 1 ] ],
       [ [ "condensor_coil", 1 ] ],
       [ [ "element", 1 ] ],
