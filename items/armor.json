@@ -2347,7 +2347,7 @@
   {
     "id": "voiro_nurse_clothes_hau",
     "type": "ARMOR",
-    "copy-from": "flag_shirt",
+    "copy-from": "tshirt",
     "name": "ナース服(雨晴はう)[voiro]",
     "description": "白い生地にピンクのラインの入ったナース服です。",
     "armor": [ 
@@ -2446,14 +2446,15 @@
     "description": "左目に取り付ける女子力を測る機械です。今は女子力スカウターの代わりにカメラが内臓しています。",
     "ammo": [ "battery" ],
     "flags": [ "WATER_BREAK_ACTIVE" ],
-    "charges_per_use": 5,
+    "charges_per_use": 1,
     "use_action": [ "CAMERA" ],
     "pocket_data": [
       {
-        "pocket_type": "MAGAZINE_WELL",
+        "pocket_type": "MAGAZINE",
         "rigid": true,
-        "flag_restriction": [ "BATTERY_LIGHT", "BATTERY_ULTRA_LIGHT" ],
-        "default_magazine": "light_plus_battery_cell"
+        "ammo_restriction": {
+          "battery": 50
+        }
       }
     ]
   },
@@ -2493,7 +2494,7 @@
     "price": "2000 USD",
     "price_postapoc": "2000 USD",
     "material_thickness": 3,
-    "flags": [ "VARSIZE","ALARMCLOCK","FANCY","RAD_RESIST","SLOWS_THIRST" ],
+    "flags": [ "VARSIZE","ALARMCLOCK","FANCY","RAD_RESIST" ],
     "relic_data": {
       "passive_effects": [
         {
@@ -2502,7 +2503,8 @@
           "values": [
             { "value": "STRENGTH", "add": 10 },
             { "value": "CLIMATE_CONTROL_HEAT", "add": 30 },
-            { "value": "CLIMATE_CONTROL_CHILL", "add": 30 }
+            { "value": "CLIMATE_CONTROL_CHILL", "add": 30 },
+            { "value": "THIRST", "multiply": -0.5 }
           ]
         }
       ]
