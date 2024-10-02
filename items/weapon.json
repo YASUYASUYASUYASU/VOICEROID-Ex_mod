@@ -95,8 +95,8 @@
       {
         "pocket_type": "MAGAZINE_WELL",
         "rigid": true,
-        "flag_restriction": [ "BATTERY_LIGHT", "BATTERY_ULTRA_LIGHT" ],
-        "default_magazine": "light_battery_cell"
+        "flag_restriction": [ "BATTERY_MEDIUM" ],
+        "default_magazine": "medium_battery_cell"
       }
     ]
   },
@@ -107,7 +107,7 @@
     "name": "ステッキ(オン)(京町セイカ)[voiro]",
     "description": "重力シールド展開装置、強制時空転送装置等を備えた「ロッド」と呼ばれる未来の超兵器のレプリカです。形状的にはワンドやバトンと呼ぶのが正しいですが、現代では「バラの花ステッキ」と呼ばれています。電源が入っており、電池を消費しています。使用すると電源を切ります。",
     "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "FANCY", "LIGHT_300", "CHARGEDIM", "TRADER_AVOID" ],
-    "power_draw": 10000,
+    "power_draw": "1560 mW",
     "revert_to": "voiro_stick_seika",
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "The %s flicks off.", "target": "voiro_stick_seika" }
   },
