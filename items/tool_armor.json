@@ -7,7 +7,7 @@
     "description": "無線通信機能が組み込まれた月読アイのヘッドセットです。",
     "weight": "169 g",
     "volume": "250 ml",
-    "price": 4600
+    "price": "46 USD"
   },
   {
     "//": "演奏する事で意欲を上げれる。表現方法は変更したいがテキスト弄ろうとするとエラー落ちするのでやむ無し。",
@@ -20,7 +20,7 @@
     "to_hit": 1,
     "weight": "488 g",
     "volume": "2500 ml",
-    "price": 3800,
+    "price": "38 USD",
     "color": "pink",
     "armor": [
       {
@@ -30,7 +30,7 @@
       }
     ],
     "material_thickness": 2,
-    "flags": [ "OVERSIZE", "BELTED", "RESTRICT_HANDS", "FANCY", "SLEEP_AID" ],
+    "flags": [ "OVERSIZE", "BELTED", "RESTRICT_HANDS", "NO_WEAR_EFFECT", "SLEEP_AID" ],
     "max_charges": 1,
     "initial_charges": 1,
     "use_action": {
@@ -52,18 +52,18 @@
     "description": "無線通信機能が組み込まれた月読ショウタのヘッドセットです。",
     "weight": "174 g",
     "volume": "250 ml",
-    "price": 4800
+    "price": "48 USD"
   },
   {
     "id": "voiro_yoshidasuit",
     "type": "TOOL_ARMOR",
     "category" : "clothing",
-    "copy-from": "wolfsuit",
+    "copy-from": "fursuit",
     "name": "着ぐるみ(吉田くん)[voiro]",
     "description": "YamahaInd社が開発した吉田くんの着ぐるみです。中身はハイテクに埋め尽くされており、重量はあるものの通常の着ぐるみに比べ収納スペースの確保、防水性能、温度調節機構等多岐による改良が施されています。",
     "weight": "24480 g",
     "volume": "25 L",
-    "price": 30000000,
+    "price": "300000 USD",
     "to_hit": -3,
     "material": [ "ceramic", "kevlar", "cotton" ],
     "symbol": "[",
@@ -73,19 +73,13 @@
     "environmental_protection": 4,
     "flags": [ "OVERSIZE", "OUTER", "STURDY", "WATERPROOF", "RAINPROOF", "WATCH", "ALARMCLOCK" ],
     "charges_per_use": 1,
-    "ammo": "battery",
+    "tool_ammo": "battery",
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
         "rigid": true,
-        "max_contains_volume": "20 L",
-        "max_contains_weight": "20 kg",
-        "item_restriction": [
-          "heavy_battery_cell",
-          "heavy_plus_battery_cell",
-          "heavy_atomic_battery_cell"
-        ]
+        "flag_restriction": [ "BATTERY_HEAVY" ],
+        "default_magazine": "heavy_battery_cell"
       }
     ],
     "use_action": {
@@ -106,7 +100,7 @@
     "description": "YamahaInd社が開発した吉田くんの着ぐるみというフェイクをいれた強化外骨格です。",
     "weight": "24480 g",
     "volume": "25 L",
-    "price": 30000000,
+    "price": "300000 USD",
     "material_thickness": 6,
     "environmental_protection": 10,
     "flags": [ "OVERSIZE", "OUTER", "STURDY", "WATERPROOF", "RAINPROOF", "ELECTRIC_IMMUNE", "WATCH", "ALARMCLOCK", "SUN_GLASSES", "RAD_RESIST" ],
@@ -143,7 +137,7 @@
     "description": "結月ゆかりの本体だとか、ビーム発射機構が搭載されているとか、まことしやかに噂されている謎のアクセサリーです。使用すると付ける位置を反転します。",
     "weight": "79 g",
     "volume": "10 ml",
-    "price": 7900,
+    "price": "79 USD",
     "color": "light_cyan",
     "use_action" : {
       "menu_text" : "付け替える",
@@ -173,7 +167,7 @@
     "description": "無線通信機能が組み込まれた京町セイカのヘッドセットです。精華町のロゴマークが刻印されています。",
     "weight": "188 g",
     "volume": "250 ml",
-    "price": 5200,
+    "price": "52 USD",
     "color": "green"
   },
   {
@@ -185,7 +179,7 @@
     "description": "レンズの中で星マークが輝く謎のアクセサリーです。使用すると付ける位置を反転します。",
     "weight": "83 g",
     "volume": "10 ml",
-    "price": 8300,
+    "price": "83 USD",
     "color": "yellow",
     "use_action" : {
       "menu_text" : "付け替える",
@@ -218,7 +212,7 @@
     "description": "普段は耳あてに擬態している謎の浮遊ロボ。使用する事で耳あてに変身します。",
     "weight": "400 g",
     "volume": "500 ml",
-    "price": 0,
+    "price": "1 cent",
     "material" : [ "steel" ],
     "symbol": "[",
     "color": "light_blue",
@@ -239,7 +233,7 @@
     "description": "耳あての形をしたメカニカルな謎のアクセサリーです。",
     "weight": "400 g",
     "volume": "500 ml",
-    "price": 0,
+    "price": "1 cent",
     "material" : [ "steel" ],
     "symbol": "[",
     "color": "light_blue",
@@ -249,7 +243,7 @@
       "target" : "voiro_sorarobo",
       "msg" : "耳あてはそらロボへと姿を変えました。"
     },
-    "flags": [ "FANCY" ]
+    "flags": [ "NO_WEAR_EFFECT" ]
   },
   {
     "//1": "ついなちゃんの設定によると、フ○ンネルのように小型恵方巻きを飛ばす機能があるらしい。",
@@ -261,16 +255,16 @@
     "description": "周の太公望が遺したと云われる兵法書「六韜」の一篇「虎韜」です。決して恵方巻きではありません。",
     "weight": "5 kg",
     "volume": "10 L",
-    "price": 0,
+    "price": "1 cent",
     "material": [ "paper" ],
     "symbol": "?",
     "color": "dark_gray",
-    "skill": "dodge",
+    "read_skill": "dodge",
     "required_level": 2,
     "max_level": 7,
     "intelligence": 12,
     "time": "3 h",
-    "fun": -8,
+    "read_fun": -8,
     "armor_data": {
       "material_thickness": 1,
       "armor": [ { "encumbrance": 20, "coverage": 5, "covers": [ "torso" ] } ]
@@ -286,7 +280,7 @@
     "description": "方相氏が被る金色四つ目の面です。役追儺の面は「ディクソン」という渾名が付けられており、無口なナイスガイです。使用すると顔に被ります。",
     "weight": "1 kg",
     "volume": "1750 ml",
-    "price": 0,
+    "price": "1 cent",
     "material": [ "wood" ],
     "symbol": "[",
     "color": "brown",
@@ -337,7 +331,7 @@
     "description": "無線通信機能が組み込まれた弦巻マキのヘッドセットです。",
     "weight": "172 g",
     "volume": "250 ml",
-    "price": 6200
+    "price": "62 USD"
   },
   {
     "type": "TOOL_ARMOR",
@@ -345,7 +339,7 @@
     "copy-from": "guitar_electric",
     "name": "エレキギター(むすタン)[voiro]",
     "description": "弦巻マキの愛器。フェンダー・ジャパンのムスタングです。弾けるような高音域と、その小ぶりなボディーから想像も出来ない個性的なサウンドは、広く大衆の心を痺れさせてきました。",
-    "price": 96000
+    "price": "960 USD"
   },
   {
     "id": "voiro_ornament_yukari_evil",
@@ -356,7 +350,7 @@
     "description": "結月ゆかりの本体だとか、ビーム発射機構が搭載されているとか、まことしやかに噂されている謎のアクセサリーです。使用すると付ける位置を反転します。",
     "weight": "79 g",
     "volume": "10 ml",
-    "price": 7900,
+    "price": "79 USD",
     "color": "light_cyan",
     "use_action" : {
       "menu_text" : "付け替える",
@@ -388,7 +382,7 @@
     "description": "ウナギをかたどったオタマン帽という名前の帽子です。白い博士帽を被っています。使用する事でオタマン帽(音街ウナSugar)に変化します。",
     "weight": "1500 g",
     "volume": "18 L",
-    "price": 4050,					"//": "現実で「音街ウナ Official Goods Shop」で扱っているオタマン帽の値段(日本円)。",
+    "price": "40 USD 50 cent",					"//": "現実で「音街ウナ Official Goods Shop」で扱っているオタマン帽の値段(日本円)。",
     "color": "blue",
     "armor": [
       {
@@ -406,7 +400,7 @@
       "target" : "voiro_hat_una_sugar",
       "msg" : "Sugar版に変化しました。"
     },
-    "flags": [ "OVERSIZE", "OUTER", "WATER_FRIENDLY", "FANCY", "RAINPROOF", "SLEEP_AID" ]
+    "flags": [ "OVERSIZE", "OUTER", "WATER_FRIENDLY", "NO_WEAR_EFFECT", "RAINPROOF", "SLEEP_AID" ]
   },
   {
     "id": "voiro_hat_una_sugar",
@@ -445,7 +439,7 @@
     "description": "ウナギのシンボルが入った刺繍と、ポケットの付いたピンクのワンピースです。使用する事でアイドル衣装(音街ウナSugar)に変化します。",
     "weight": "280 g",
     "volume": "1500 ml",
-    "price": 10000,
+    "price": "100 USD",
     "armor": [
       { "coverage": 80, "covers": [ "torso" ] },
       {
@@ -473,7 +467,7 @@
     "description": "マーチングバンドの指揮者をイメージする可愛らしい衣装です。使用する事でアイドル衣装(音街ウナSpicy)に変化します。",
     "weight": "312 g",
     "volume": "1500 ml",
-    "price": 10000,
+    "price": "100 USD",
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "blue",
@@ -497,7 +491,7 @@
       "target" : "voiro_idol_costume_una_spicy",
       "msg" : "Spicy版に変化しました。"
     },
-    "flags": [ "VARSIZE", "FANCY" ]
+    "flags": [ "VARSIZE", "NO_WEAR_EFFECT" ]
   },
   {
     "//": "ワンピース、アイドル衣装(sugar)から性能が変わるが、都合上問題がありそうな値段、収納容量はそのままにする。",
@@ -538,7 +532,7 @@
     "copy-from": "tights",
     "description": "脚と足にしっかりと密着する少し厚めのタイツです。赤が印象的なトーンオントーンチェック柄になっています。使用する事で靴下(音街ウナSugar)に変化します。",
     "weight": "158 g",
-    "price": 2000,
+    "price": "20 USD",
     "warmth": 15,
     "material_thickness": 1,
     "use_action" : {
@@ -556,7 +550,7 @@
     "description": "鍵盤の柄が入った左と、無地の右からなる靴下です。左脚には楽譜デザインのアクセサリーが付きます。使用する事でタイツ(音街ウナSpicy)に変化します。",
     "weight": "31 g",
     "volume": "250 ml",
-    "price": 2000,
+    "price": "20 USD",
     "use_action" : {
       "menu_text" : "使用する",
       "type" : "transform",
@@ -573,7 +567,7 @@
     "description": "ベルトで留める網タイツと、鍵盤の柄が入ったレザーストッキングの組み合わせです。使用する事でタイツ(音街ウナ)に変化します。",
     "weight": "45 g",
     "volume": "250 ml",
-    "price": 2000,
+    "price": "20 USD",
     "material": [ "cotton", "leather" ],
     "armor": [
       { "encumbrance": 5, "coverage": 100, "covers": [ "foot_l", "foot_r" ] },
@@ -601,7 +595,7 @@
     "description": "全体が丸っこい近未来感溢れるブーツです。使用する事でスニーカー(音街ウナSugar)に変化します。",
     "weight": "800 g",
     "volume": "2000 ml",
-    "price": 10000,
+    "price": "100 USD",
     "material": [ "cotton", "leather" ],
     "material_thickness": 2,
     "environmental_protection": 1,
@@ -620,7 +614,7 @@
     "description": "羽飾りが付いたソールが少し厚めのスニーカーです。使用する事でブーツ(音街ウナSpicy)に変化します。",
     "weight": "800 g",
     "volume": "2000 ml",
-    "price": 10000,
+    "price": "100 USD",
     "material_thickness": 2,
     "environmental_protection": 1,
     "use_action" : {
@@ -638,7 +632,7 @@
     "description": "黄色のステッチが特徴的な厚底パンキッシュブーツです。使用する事でブーツ(音街ウナ)に変化します。",
     "weight": "800 g",
     "volume": "2000 ml",
-    "price": 10000,
+    "price": "100 USD",
     "melee_damage": { "bash": 6 },
     "use_action" : {
       "menu_text" : "使用する",
@@ -655,7 +649,7 @@
     "description": "無線通信機能が組み込まれた初音ミクのヘッドセットです。使用する事でヘッドセット(弱音ハク)に変化します。(双方向無線機の役割が追加されたが、変化するたびの電力を使うのはどうかと思うので、ここだけ電力を使わない仕様に)",
     "weight": "179 g",
     "volume": "250 ml",
-    "price": 3939,
+    "price": "39 USD 39 cent",
     "charges_per_use": 0,
     "use_action" : {
       "menu_text" : "使用する",
@@ -687,7 +681,7 @@
     "description": "科学の限界を超えたノースリーブの緑色のダウンシャツです。使用する事でノースリーブ(弱音ハク)に変化します。",
     "weight": "239 g",
     "volume": "1250 ml",
-    "price": 3900,
+    "price": "39 USD",
     "color": "green",
     "armor": [
       {
@@ -735,7 +729,7 @@
     "description": "近未来チックなふちが緑色のアームカバーです。使用する事でアームカバー(弱音ハク)に変化します。",
     "weight": "78 g",
     "volume": "500 ml",
-    "price": 3939,
+    "price": "39  USD 39 cent",
     "color": "green",
     "armor": [
       {
@@ -781,7 +775,7 @@
     "description": "一部が発光するオーバーテクノロジーで造られたスカートです。使用する事でベルボトムパンツ(弱音ハク)に変化します。",
     "weight": "78 g",
     "volume": "250 ml",
-    "price": 3939,
+    "price": "39 USD 39 cent",
     "color": "green",
     "use_action" : {
       "menu_text" : "使用する",
@@ -800,7 +794,7 @@
     "description": "腰から膝までが身体に密着し、そこから裾に向かって広がっていくパンツです。紫のラインが特徴的です。使用する事でスカート(初音ミク)に変化します。",
     "weight": "445 g",
     "volume": "2 L",
-    "price": 3939,
+    "price": "39 USD 39 cent",
     "color": "dark_gray",
     "use_action" : {
       "menu_text" : "使用する",
@@ -818,7 +812,7 @@
     "description": "膝部分が淡く発光する、鍵盤の模様が入った黒いサイハイブーツです。使用する事でブーツ(弱音ハク)に変化します。",
     "weight": "780 g",
     "volume": "3500 ml",
-    "price": 3939,
+    "price": "39 USD 39 cent",
     "use_action" : {
       "menu_text" : "使用する",
       "type" : "transform",
@@ -864,7 +858,7 @@
         "specifically_covers": [ "leg_upper_l", "leg_upper_r" ]
       }
     ],
-    "flags": [ "VARSIZE", "WATERPROOF", "FANCY"  ]
+    "flags": [ "VARSIZE", "WATERPROOF", "NO_WEAR_EFFECT"  ]
   },
   {
     "id": "voiro_boots_haku",
@@ -874,14 +868,14 @@
     "description": "紫のソールが鮮やかな白いショートブーツです。使用する事でブーツ(初音ミク)に変化します。",
     "weight": "445 g",
     "volume": "2 L",
-    "price": 3939,
+    "price": "39 USD 39 cent",
     "use_action" : {
       "menu_text" : "使用する",
       "type" : "transform",
       "target" : "voiro_boots_miku",
       "msg" : "ブーツ(初音ミク)に変化しました。"
     },
-    "flags": [ "VARSIZE", "WATERPROOF", "FANCY"  ]
+    "flags": [ "VARSIZE", "WATERPROOF", "NO_WEAR_EFFECT"  ]
   },
   {
     "id": "voiro_hairpin_rikka",
