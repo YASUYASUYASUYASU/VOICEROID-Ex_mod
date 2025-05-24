@@ -2,7 +2,8 @@
   {
     "//": "部位指定しておかないと破かれない。被服率も100%にして破かれやすくした。",
     "id": "hentai_band_aid",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR","TOOL" ],
     "copy-from": "voiro_sarashi",
     "category" : "tools",
     "name": "ニプレス(絆創膏)[voiro]",
@@ -23,8 +24,8 @@
   },
   {
     "id": "hentai_band_aid2",
-    "type": "ARMOR",
-    "category" : "tools",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR","TOOL" ],
     "copy-from": "hentai_band_aid",
     "name": "ニプレス(絆創膏)[voiro]",
     "description": "胸の突起を隠す目的や、衣服との摩擦で痛みや出血が起きるのを防ぐために使用する保護器具です。使用する事で、少し上に貼り直せます。",
@@ -38,8 +39,8 @@
   },
   {
     "id": "hentai_band_aid3",
-    "type": "ARMOR",
-    "category" : "tools",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR","TOOL" ],
     "copy-from": "hentai_band_aid",
     "name": "ニプレス(絆創膏)[voiro]",
     "description": "人類の英知にして尊厳を守る最後の砦です。",

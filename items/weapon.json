@@ -107,7 +107,8 @@
   {
     "id": "voiro_stick_on_seika",
     "copy-from": "voiro_stick_seika",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "name": "ステッキ(オン)(京町セイカ)[voiro]",
     "description": "重力シールド展開装置、強制時空転送装置等を備えた「ロッド」と呼ばれる未来の超兵器のレプリカです。形状的にはワンドやバトンと呼ぶのが正しいですが、現代では「バラの花ステッキ」と呼ばれています。電源が入っており、電池を消費しています。使用すると電源を切ります。",
     "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "NO_WEAR_EFFECT", "LIGHT_300", "CHARGEDIM", "TRADER_AVOID" ],
@@ -117,7 +118,8 @@
   },
   {
     "id": "voiro_shield_tuina",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "category": "armor",
     "name": "隼人盾(役ついな)[voiro]",
     "description": "鉄製に見えますが、鋲が打たれ漆塗りを施された木製の盾です。表面にはペンキで「ONI IS OUT!!」と書かれています。",
@@ -144,7 +146,8 @@
     "//1": "薙刀+日本刀+野太刀+フォークスピアを足して割った性能。威力的にも性能違いの小型ハルバードといった感じ。",
     "//2": "盾持ちを再現する為、片手持ち可。コストがネックになるので立ち回り方が重要になる武器。",
     "id": "voiro_halberd_tuina",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "subtypes": [ "WEAPON" ],
     "copy-from": "spear_forked",
     "name": "三叉の矛(役ついな)[voiro]",
     "description": "方相氏の用いる長柄武器です。かなりの重量と大きさを誇ります。地域によっては一方の刃が短い三叉の矛もあり、役追儺は両方を使い分けます。",
@@ -160,7 +163,8 @@
   },
   {
     "id": "voiro_knife_kiritan",
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "category" : "weapons",
     "name": "包丁(東北きりたん)[voiro]",
     "description": "秋田の「なまはげ」の角とナタを彷彿とさせるアクセサリーです。いずこより飛来し、たんぽを両断するときりたんの頭にセットされていました。",
@@ -188,7 +192,8 @@
   },
   {
     "id": "voiro_kiritan_cannons",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR","GUN" ],
     "name": "ランチャー(40mm/きりたん砲)[voiro]",
     "description": "たんちゃんの半身にあたる巨大な二門のきりたんぽ。普段は味噌が詰まっている筈ですが、何故か今は40mmグレネード弾が詰まっています。",
     "weight": "4 kg",
@@ -208,17 +213,15 @@
     ],
     "symbol": "(",
     "color": "yellow",
-    "armor_data": {
-      "armor": [
-        {
-          "material": [ { "type": "veggy", "covered_by_mat": 100, "thickness": 6.0 } ],
-          "encumbrance":  10,
-          "coverage": 40,
-          "covers": [ "torso" ],
-          "specifically_covers": [ "torso_hanging_back" ]
-        }
-      ]
-    },
+    "armor": [
+      {
+        "material": [ { "type": "veggy", "covered_by_mat": 100, "thickness": 6.0 } ],
+        "encumbrance":  10,
+        "coverage": 40,
+        "covers": [ "torso" ],
+        "specifically_covers": [ "torso_hanging_back" ]
+      }
+    ],
     "skill": "launcher",
     "ammo": "40x46mm",
     "dispersion": 200,
@@ -235,7 +238,8 @@
   {
     "//": "ver3.10よりmaterialをveggyからwoodに変更。壊れにくくした。",
     "id": "voiro_negi",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "weapons",
     "name": "長ネギ[voiro]",
     "description": "※食べられません※\n世界は一本の葱から始まった。使用する事で一升瓶に変化します。",
@@ -262,7 +266,8 @@
     "//1": "強そうに見えるけどガラスなので一瞬で割れる。",
     "//2": "中身が入っている場合、「使用する」ではなくて「使う」を選ぶと中身を飲んでしまう。",
     "id": "voiro_bottle_sake",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "other",
     "name": "一升瓶[voiro]",
     "description": "日本酒の容器に用いられるガラス製の一升瓶です。1800mlの容量があります。使用する事で長ネギに変化します。",
@@ -297,7 +302,8 @@
   {
     "//": "ver3.10よりmaterialをveggyからwoodに変更。壊れにくくした。",
     "id": "voiro_negi_double",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "weapons",
     "name": "ダブル長ネギ[voiro]",
     "description": "※食べられません※\n世界は二本の葱で終わった。",
@@ -314,7 +320,8 @@
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", -20 ] ]
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
+    "subtypes": [ "WEAPON" ],
     "id": "voiro_spear_pipe_metan",
     "name": { "str": "『天恵』のハイド" },
     "description": "巨大ドリル付きの槍です。エネルギー不足で困っている人を探知できるとのことです。",

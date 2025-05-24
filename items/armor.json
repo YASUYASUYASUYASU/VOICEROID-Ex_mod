@@ -2633,7 +2633,7 @@
   {
     "id": "voiro_suit_yukari",
     "type": "ITEM",
-    "subtypes": [ "ARMOR" ],
+    "subtypes": [ "TOOL", "ARMOR", "ARTIFACT" ],
     "copy-from": "mil_flight_suit",
     "name": "パイロットスーツ(結月ゆかり)[voiro]",
     "description": "全身を守る為のスーツです。かっこよさとオシャレさと機能を抑えた一品です。",
@@ -2642,20 +2642,18 @@
     "price_postapoc": "2000 USD",
     "material_thickness": 3,
     "flags": [ "VARSIZE","ALARMCLOCK","NO_WEAR_EFFECT","RAD_RESIST" ],
-    "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ACTIVE",
-          "values": [
-            { "value": "STRENGTH", "add": 10 },
-            { "value": "CLIMATE_CONTROL_HEAT", "add": 30 },
-            { "value": "CLIMATE_CONTROL_CHILL", "add": 30 },
-            { "value": "THIRST", "multiply": -0.5 }
-          ]
-        }
-      ]
-    }
+    "passive_effects": [
+      {
+        "has": "WORN",
+        "condition": "ACTIVE",
+        "values": [
+          { "value": "STRENGTH", "add": 10 },
+          { "value": "CLIMATE_CONTROL_HEAT", "add": 30 },
+          { "value": "CLIMATE_CONTROL_CHILL", "add": 30 },
+          { "value": "THIRST", "multiply": -0.5 }
+        ]
+      }
+    ]
   },
   {
     "id": "voiro_suit_maki",

@@ -1,6 +1,7 @@
 [
   {
-    "type" : "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id" : "voiro_arrow_zunda",
     "copy-from": "arrow_wood",
     "price" : "10 USD",
