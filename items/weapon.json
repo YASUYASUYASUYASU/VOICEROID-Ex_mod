@@ -111,9 +111,10 @@
     "subtypes": [ "TOOL" ],
     "name": "ステッキ(オン)(京町セイカ)[voiro]",
     "description": "重力シールド展開装置、強制時空転送装置等を備えた「ロッド」と呼ばれる未来の超兵器のレプリカです。形状的にはワンドやバトンと呼ぶのが正しいですが、現代では「バラの花ステッキ」と呼ばれています。電源が入っており、電池を消費しています。使用すると電源を切ります。",
-    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "NO_WEAR_EFFECT", "LIGHT_300", "CHARGEDIM", "TRADER_AVOID" ],
+    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "NO_WEAR_EFFECT", "CHARGEDIM", "TRADER_AVOID" ],
     "power_draw": "1560 mW",
     "revert_to": "voiro_stick_seika",
+    "light": 300,
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "The %s flicks off.", "target": "voiro_stick_seika" }
   },
   {
@@ -148,7 +149,7 @@
     "id": "voiro_halberd_tuina",
     "type": "ITEM",
     "subtypes": [ "WEAPON" ],
-    "copy-from": "spear_forked",
+    "copy-from": "spear_spike",
     "name": "三叉の矛(役ついな)[voiro]",
     "description": "方相氏の用いる長柄武器です。かなりの重量と大きさを誇ります。地域によっては一方の刃が短い三叉の矛もあり、役追儺は両方を使い分けます。",
     "weight": "2100 g",

@@ -61,7 +61,6 @@
       "E_FILE_DEVICE",
       "EBOOKSAVE",
       "CAMERA",
-      "MP3",
       "CALORIES_INTAKE_TRACKER",
       "PORTABLE_GAME",
       {
@@ -80,7 +79,8 @@
       },
       { "type": "link_up", "cable_length": 3, "charge_rate": "20 W" }
     ],
-    "extend": { "flags": [ "LIGHT_20", "CHARGEDIM", "TRADER_AVOID" ] }
+    "light": 20,
+    "extend": { "flags": ["CHARGEDIM", "TRADER_AVOID" ] }
   },
   {
     "id": "voiro_mic",
@@ -163,7 +163,7 @@
     "id": "voiro_solar_sora",
     "type": "ITEM",
     "subtypes": [ "TOOL","ARMOR" ],
-    "copy-from": "solarpack",
+    "copy-from": "folding_solar_panel_v2",
     "name": "折り畳みソーラーパネル(九州そら)[voiro]",
     "description": "発電用のソーラーパネルです。使用することでケーブルを自身に刺し、充電できます。噂では翼の代わりになったりするようです。"
   },
@@ -171,7 +171,7 @@
     "id": "voiro_solar_sora_on",
     "type": "ITEM",
     "subtypes": [ "TOOL","ARMOR" ],
-    "copy-from": "solarpack_on",
+    "copy-from": "folding_solar_panel_v2",
     "name": "折り畳みソーラーパネル(九州そら)(展開)[voiro]",
     "description": "発電用のソーラーパネルです。使用することでケーブルを自身に刺し、充電できます。噂では翼の代わりになったりするようです。"
   },
@@ -222,7 +222,6 @@
       "CALORIES_INTAKE_TRACKER",
       "E_FILE_DEVICE",
       "EBOOKSAVE",
-      "MP3",
       "PORTABLE_GAME"
     ],
     "tick_action": [ "MP3_ON" ],
@@ -248,6 +247,7 @@
       }
     ],
     "tick_action": [ "MP3_ON" ],
-    "extend": { "flags": [ "TRADER_AVOID", "LIGHT_25" ] }
+    "light": 25,
+    "extend": { "flags": [ "TRADER_AVOID" ] }
   }
 ]
