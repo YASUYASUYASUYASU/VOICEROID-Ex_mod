@@ -1864,7 +1864,7 @@
     "warmth": 5,
     "material_thickness": 3,
     "environmental_protection": 1,
-    "flags": [ "VARSIZE", "WATERPROOF", "NO_WEAR_EFFECT" ]
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "ALLOWS_NATURAL_ATTACKS", "ALLOWS_TALONS" ]
   },
   {
     "id": "voiro_aliceband_hime",
