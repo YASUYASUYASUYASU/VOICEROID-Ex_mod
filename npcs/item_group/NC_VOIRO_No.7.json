@@ -1,0 +1,17 @@
+[
+  {
+    "type": "item_group",
+    "id": "NC_NO7_worn",
+    "subtype": "collection",
+    "entries": [ 
+      { "item": "panties" },
+      { "item": "bra" },
+      { "item": "voiro_tights_no7" },
+      { "item": "voiro_headphones_no7" },
+      { "item": "voiro_shirt_no7" },
+      { "item": "socks" },
+      { "item": "sneakers" },
+      { "item": "mbag" }
+    ]
+  }
+]

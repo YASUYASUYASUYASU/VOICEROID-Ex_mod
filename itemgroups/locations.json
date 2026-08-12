@@ -23,6 +23,7 @@
         [ "mag_subculjapan2020", 10 ],
         [ "mag_subculjapan2021", 10 ],
         [ "mag_subculjapan2022", 10 ],
+        [ "mag_subculjapan2026", 10 ],
         [ "mag_virtualsinger", 10 ]
       ]
     }
@@ -40,6 +41,7 @@
         [ "mag_subculjapan2020", 5 ],
         [ "mag_subculjapan2021", 5 ],
         [ "mag_subculjapan2022", 5 ],
+        [ "mag_subculjapan2026", 5 ],
         [ "mag_virtualsinger", 5 ]
       ]
     }
@@ -56,6 +58,7 @@
         [ "mag_subculjapan2018", 10 ],
         [ "mag_subculjapan2021", 10 ],
         [ "mag_subculjapan2022", 10 ],
+        [ "mag_subculjapan2026", 10 ],
         [ "mag_virtualsinger", 10 ]
       ]
     }
@@ -66,13 +69,14 @@
     "copy-from": "sewing_group",
     "extend": {
       "items": [
-        [ "mag_subculjapan2012", 15 ],
-        [ "mag_subculjapan2014", 15 ],
-        [ "mag_subculjapan2016", 15 ],
-        [ "mag_subculjapan2018", 15 ],
-        [ "mag_subculjapan2021", 15 ],
-        [ "mag_subculjapan2022", 15 ],
-        [ "mag_virtualsinger", 15 ]
+        [ "mag_subculjapan2012", 10 ],
+        [ "mag_subculjapan2014", 10 ],
+        [ "mag_subculjapan2016", 10 ],
+        [ "mag_subculjapan2018", 10 ],
+        [ "mag_subculjapan2021", 10 ],
+        [ "mag_subculjapan2022", 10 ],
+        [ "mag_subculjapan2026", 10 ],
+        [ "mag_virtualsinger", 10 ]
       ]
     }
   }

@@ -1,0 +1,16 @@
+[
+  {
+    "type": "item_group",
+    "id": "NC_CUL_worn",
+    "subtype": "collection",
+    "entries": [ 
+      { "item": "panties" },
+      { "item": "bra" },
+      { "item": "voiro_dreess_cul" },
+      { "item": "voiro_kneesocks_cul" },
+      { "item": "voiro_ornaments_cul" },
+      { "item": "leathersandals" },
+      { "item": "mbag" }
+    ]
+  }
+]a

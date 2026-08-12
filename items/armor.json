@@ -2828,5 +2828,82 @@
     "description": "おしゃれなニーソックスです",
     "extend": { "flags": [ "NO_WEAR_EFFECT" ] },
     "copy-from": "voiro_socks_hau"
+  },
+  {
+    "id": "voiro_dreess_cul",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "name": "和風ミニドレス(WhiteCUL)[voiro]",
+    "description": "物の帯や袖のデザインを残しつつ、ドレスのシルエットに落とし込んだクールビューティーな服です。",
+    "copy-from": "ninja_dress_sleeveless"
+  },
+  {
+    "id": "voiro_ornaments_cul",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "name": "髪飾り(WhiteCUL)[voiro]",
+    "description": "雪をかたどったクールビューティーな髪飾りです。",
+    "copy-from": "silver_hairpin"
+  },
+  {
+    "id": "voiro_kneesocks_cul",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "name": "ニーハイソックス(WhiteCUL)[voiro]",
+    "description": "クールビューティーなニーハイソックスです。",
+    "copy-from": "silver_hairpin"
+  },
+  {
+    "id": "voiro_overall_ankomon",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "name": "オーバーオール(あんこもん)[voiro]",
+    "description": "丈が短い少しあんこの香りがするオーバーオールです。",
+    "copy-from": "voiro_overall_zundamon"
+  },
+  {
+    "id": "voiro_sneakers_ankomon",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "copy-from": "voiro_sneakers_zundamon",
+    "name": "スニーカー(あんこもん)[voiro]",
+    "description": "少しあんだの香りがする茶色のスニーカーです。"
+  },
+  {
+    "id": "voiro_dress_shirt_ankomon",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "copy-from": "voiro_dress_shirt_zundamon",
+    "name": "ドレスシャツ(あんこもん)[voiro]",
+    "description": "袖が少し短く、少しあんこの香りがするドレスシャツです。"
+  },
+  {
+    "id": "voiro_shirt_no7",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "copy-from": "leotard",
+    "name": "テックウェア(No.7)[voiro]",
+    "description": "サイバーパンクやフューチャリスティックな要素と、現代的なストリートウェアやスポーツウェアのデザインが融合した「テックウェア」といえるウェアです。",
+    "flags": [ "VARSIZE", "WATER_FRIENDLY" ],
+    "armor": [ { "coverage": 70, "covers": [ "torso", "arm_l", "arm_r" ] } ]
+  },
+  {
+    "id": "voiro_headphones_no7",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "name": "ヘッドフォン(Np.7)[voiro]",
+    "description": "サイバーな雰囲気を感じる未来的なヘッドフォンです。",
+    "copy-from": "voiro_headset_ai"
+  },
+  {
+    "id": "voiro_tights_no7",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "copy-from": "tights",
+    "name": "網タイツ(No.7)[voiro]",
+    "description": "サイバーな雰囲気を醸し出す網タイツです。",
+    "warmth": 2,
+    "material_thickness": 0.05,
+    "armor": [ { "coverage": 100, "covers": [ "leg_r", "leg_l" ] } ]
   }
 ]

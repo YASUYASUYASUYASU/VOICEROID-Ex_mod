@@ -302,5 +302,31 @@
       [ [ "medium_storage_battery", 1 ] ],
       [ [ "voiro_suit_lakiston", 1 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "voiro_headphones_no7",
+    "category": "CC_VOIRO",
+    "subcategory": "CSC_VOIRO_ELECTRONIC",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "electronics",
+    "skills_required": [ [ "computer", 3 ]],
+    "difficulty": 4,
+    "time": "30 m",
+    "reversible": true,
+    "decomp_learn": 4,
+    "autolearn": false,
+    "book_learn": [ [ "mag_subculjapan2026", 5 ], [ "mag_electronics", 4 ], [ "radio_book", 3 ] ],
+    "using": [ [ "soldering_standard", 10 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "amplifier", 1 ] ],
+      [ [ "transponder", 1 ] ],
+      [ [ "receiver", 1 ] ],
+      [ [ "antenna", 1 ] ],
+      [ [ "cable", 5 ] ],
+      [ [ "plastic_chunk", 5 ] ]
+    ],
+    "flags": [ "SECRET" ]
   }
 ]

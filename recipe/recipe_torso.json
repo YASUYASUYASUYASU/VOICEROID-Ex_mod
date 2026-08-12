@@ -717,5 +717,53 @@
     "using": [ [ "sewing_standard", 12 ] ],
     "components": [ [ [ "rag", 6 ] ] ],
     "flags": [ "SECRET" ]
+  },
+  {
+    "type": "recipe",
+    "result": "voiro_dress_shirt_ankomon",
+    "category": "CC_VOIRO",
+    "subcategory": "CSC_VOIRO_ARMOR",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": "45 m",
+    "autolearn": false,
+    "book_learn": [ [ "mag_subculjapan2026", 2 ], [ "mag_animecon", 3 ] ],
+    "using": [ [ "filament", 10 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "rag", 8 ] ] ],
+    "flags": [ "SECRET" ]
+  },
+  {
+    "type": "recipe",
+    "result": "voiro_dreess_cul",
+    "category": "CC_VOIRO",
+    "subcategory": "CSC_VOIRO_ARMOR",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": "45 m",
+    "autolearn": false,
+    "book_learn": [ [ "mag_subculjapan2026", 2 ] ],
+    "using": [ [ "filament", 10 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "rag", 10 ] ] ],
+    "flags": [ "SECRET" ]
+  },
+  {
+    "type": "recipe",
+    "result": "voiro_shirt_no7",
+    "category": "CC_VOIRO",
+    "subcategory": "CSC_VOIRO_ARMOR",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": "45 m",
+    "autolearn": false,
+    "book_learn": [ [ "mag_subculjapan2026", 2 ] ],
+    "using": [ [ "filament", 10 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "rag", 10 ] ] ],
+    "flags": [ "SECRET" ]
   }
 ]

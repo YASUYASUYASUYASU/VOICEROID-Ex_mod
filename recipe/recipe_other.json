@@ -393,5 +393,19 @@
       [ [ "sheet_metal", 2 ] ],
       [ [ "rope_natural_short", 1, "LIST" ] ]
     ]
+  },
+  {
+    "type" : "recipe",
+    "result": "voiro_ornaments_cul",
+    "category": "CC_VOIRO",
+    "subcategory": "CSC_VOIRO_ARMOR",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "fabrication",
+    "time": "10 m",
+    "autolearn": false,
+    "book_learn": [ [ "mag_subculjapan2026" ], [ "mag_virtualsinger", 1 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 1 } ],
+    "components": [ [ [ "fc_hairpin", 1 ] ] ],
+    "flags": [ "SECRET" ]
   }
 ]

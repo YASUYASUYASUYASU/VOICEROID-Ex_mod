@@ -627,5 +627,56 @@
         "moves": 50
       }
     ]
+  },
+  {
+    "id": "nikki_38",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "name": "★日記(WhiteCUL)",
+    "copy-from": "nikki_1",
+    "description": "誰かの日記のようです。使用すると…?",
+    "use_action": [
+      {
+        "type": "place_npc",
+        "npc_class_id": "whitecul",
+        "summon_msg": "日記を読むと突然何かが現れました！",
+        "place_randomly": false,
+        "moves": 50
+      }
+    ]
+  },
+  {
+    "id": "nikki_39",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "name": "★日記(あんこもん)",
+    "copy-from": "nikki_1",
+    "description": "誰かの日記のようです。使用すると…?",
+    "use_action": [
+      {
+        "type": "place_npc",
+        "npc_class_id": "ankomon",
+        "summon_msg": "日記を読むと突然何かが現れました！",
+        "place_randomly": false,
+        "moves": 50
+      }
+    ]
+  },
+  {
+    "id": "nikki_40",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "name": "★日記(No.7)",
+    "copy-from": "nikki_1",
+    "description": "誰かの日記のようです。使用すると…?",
+    "use_action": [
+      {
+        "type": "place_npc",
+        "npc_class_id": "no7",
+        "summon_msg": "日記を読むと突然何かが現れました！",
+        "place_randomly": false,
+        "moves": 50
+      }
+    ]
   }
 ]

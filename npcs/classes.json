@@ -854,5 +854,74 @@
     "name": { "str": "モチノ・キョウコ" },
     "worn_override": "NC_MOCHIKO_worn",
     "traits": [ { "group": "BG_survival_story_RURAL" }, { "trait": "VOIRO_BODY_MOCHIKO", "prob": 100 },{ "group": "NPC_starting_traits_voiro" } ]
+  },
+  {
+    "type": "npc",
+    "id": "whitecul",
+    "//": "VOIRO mod用のWhiteCULクラスの定義",
+    "name_unique": "WhiteCUL",
+    "name_suffix": "",
+    "gender": "female",
+    "age": 20,
+    "height": 165,
+    "class": "NC_VOIRO_CUL",
+    "attitude": 0,
+    "mission": 8,
+    "chat": "TALK_CUL_SAN_1",
+    "faction": "no_faction"
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_VOIRO_CUL",
+    "copy-from": "NC_VOIRO_AI",
+    "name": { "str": "WhiteCUL" },
+    "worn_override": "NC_CUL_worn",
+    "traits": [ { "group": "BG_survival_story_RURAL" }, { "trait": "VOIRO_BODY_CUL", "prob": 100 },{ "group": "NPC_starting_traits_voiro" } ]
+  },
+  {
+    "type": "npc",
+    "id": "ankomon",
+    "//": "VOIRO mod用のあんこもんクラスの定義",
+    "name_unique": "あんこもん",
+    "name_suffix": "",
+    "gender": "female",
+    "age": 2,
+    "height": 150,
+    "class": "NC_VOIRO_ANKOMON",
+    "attitude": 0,
+    "mission": 8,
+    "chat": "TALK_ANKOMON_SAN_1",
+    "faction": "no_faction"
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_VOIRO_ANKOMON",
+    "copy-from": "NC_VOIRO_AI",
+    "name": { "str": "あんこもん" },
+    "worn_override": "NC_ANKOMON_worn",
+    "traits": [ { "group": "BG_survival_story_RURAL" }, { "trait": "VOIRO_BODY_ANKOMON", "prob": 100 }, { "trait": "VOIRO_ANKOMON_MIMI_active", "prob": 100 }, { "trait": "VOIRO_ANKOMON_KAMI_active", "prob": 100 },{ "group": "NPC_starting_traits_voiro" } ]
+  },
+  {
+    "type": "npc",
+    "id": "no7",
+    "//": "VOIRO mod用のNo.7クラスの定義",
+    "name_unique": "No.7",
+    "name_suffix": "",
+    "gender": "female",
+    "age": 23,
+    "height": 165,
+    "class": "NC_VOIRO_NO7",
+    "attitude": 0,
+    "mission": 8,
+    "chat": "TALK_NO7_SAN_1",
+    "faction": "no_faction"
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_VOIRO_NO7",
+    "copy-from": "NC_VOIRO_AI",
+    "name": { "str": "No.7" },
+    "worn_override": "NC_NO7_worn",
+    "traits": [ { "group": "BG_survival_story_RURAL" }, { "trait": "VOIRO_BODY_NO7", "prob": 100 },{ "group": "NPC_starting_traits_voiro" } ]
   }
 ]

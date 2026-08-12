@@ -1301,5 +1301,92 @@
         ]
       }
     }
+  },
+  {
+    "//1": "whiteCUL",
+    "//3": "紹介文一行目 - 風雪月花と名付けられたCUL四姉妹の次女、CUL、ロサ(ROSA)の姉",
+    "//4": "普段は「雪さん」と呼ばれている。忍びの村で育ち、雪の妖術を操ることが出来る。",
+    "//5": "抜群の歌唱力を持つクールビューティーだが、実は小心者。好きな食べ物は、ソフトクリームバニラ",
+    
+    "type": "profession",
+    "id": "voiro_whitecul",
+    "name": "クールビューティー[VOIRO]",
+    "description": "大好きなソフトクリームバニラを食べにニューイングランドに来ましたが、どうやらアイスそころではないようです。この危機に持前のクールビューティー力を駆使して生き残れるのでしょうか",
+    "points": 0,
+    "traits": [ "VOIRO_BODY_CUL" ],
+    "items": {
+      "both": {
+        "items": [
+          "panties",
+          "bra",
+          "voiro_dreess_cul",
+          "voiro_ornaments_cul",
+          "voiro_kneesocks_cul",
+          "leathersandals",
+          "mbag",
+          "water_clean"
+        ],
+        "entries": [
+          { "group": "charged_cell_phone" }
+        ]
+      }
+    }
+  },
+  {
+    "//1": "あんこもん",
+    "//3": "紹介文一行目 - あんこもん、ずんだもんのライバル・・・らしい(一方的)",
+    
+    "type": "profession",
+    "id": "voiro_ankomon",
+    "name": "あんこもん[VOIRO]",
+    "description": "ずんだもんのライバル、あんこもんです。ずんだもんに負けを認めさせるべきはるばるニューイングランドにやってきましたが…ゾンビの群れに襲われ超ピンチ！ここを突破できるのでしょうか？",
+    "points": 0,
+    "traits": [ "VOIRO_BODY_ANKOMON","VOIRO_ANKOMON_KAMI_active","VOIRO_ANKOMON_MIMI_active" ],
+    "items": {
+      "both": {
+        "items": [
+          "panties",
+          "bra",
+          "voiro_sneakers_ankomon",
+          "voiro_overall_ankomon",
+          "voiro_dress_shirt_ankomon",
+          "socks",
+          "mbag",
+          "water_clean"
+        ],
+        "entries": [
+          { "group": "charged_cell_phone" }
+        ]
+      }
+    }
+  },
+  {
+    "//1": "No.7",
+    "//3": "紹介文一行目 - 正体がつかめない不思議な女性",
+    "//4": "得意のメイクで複数の「顔」を持つ。",
+    
+    "type": "profession",
+    "id": "voiro_no7",
+    "name": "No.7[VOIRO]",
+    "description": "正体がつかめない不思議な女性です、旅行でニューイングランドにやってきましたが、周りの様子がどうもおかしい…ちょっと様子を見に行ってみましょうか?",
+    "points": 0,
+    "traits": [ "VOIRO_BODY_NO7" ],
+    "items": {
+      "both": {
+        "items": [
+          "panties",
+          "bra",
+          "voiro_tights_no7",
+          "sneakers",
+          "voiro_headphones_no7",
+          "voiro_shirt_no7",
+          "mbag",
+          "water_clean"
+        ],
+        "entries": [
+          { "group": "charged_cell_phone" }
+        ]
+      }
+    }
   }
 ]

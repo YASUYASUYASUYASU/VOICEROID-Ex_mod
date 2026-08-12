@@ -702,6 +702,46 @@
         { "id": "overlay_worn_voiro_socks_mochiko",			"fg": 846, "rotates": false },
         { "id": "overlay_mutation_TAIL_FLUFFY_MOCHIKO",		"fg": 847, "rotates": false }
       ]
+    },
+    {
+      "file": "tiles/tiles_voiceroid_32x32whitecul.png",
+      "sprite_height":32,
+      "tiles": [
+        { "id": "overlay_mutation_VOIRO_BODY_CUL",	    	"fg": 850, "rotates": false },
+        { "id": "voiro_ornaments_cul",						"fg": 851, "rotates": false },
+        { "id": "overlay_worn_voiro_ornaments_cul",			"fg": 851, "rotates": false },
+        { "id": "voiro_kneesocks_cul",						"fg": 852, "rotates": false },
+        { "id": "overlay_worn_voiro_kneesocks_cul",			"fg": 852, "rotates": false },
+        { "id": "voiro_dreess_cul",							"fg": 853, "rotates": false },
+        { "id": "overlay_worn_voiro_dreess_cul",			"fg": 853, "rotates": false }
+      ]
+    },
+    {
+      "file": "tiles/tiles_voiceroid_32x40_ankomon.png",
+      "sprite_height":40,
+     "sprite_offset_y":-8,
+      "tiles": [
+      { "id": "overlay_mutation_VOIRO_BODY_ANKOMON",		"fg": 854,	"rotates": false },
+      { "id": "overlay_mutation_VOIRO_ANKOMON_MIMI_active",	"fg": 855,	"rotates": false },
+      { "id": "overlay_mutation_VOIRO_ANKOMON_MIMI",		"fg": 860,	"rotates": false },
+      { "id": "overlay_worn_voiro_dress_shirt_ankomon",		"fg": 856,	"rotates": false },
+      { "id": "overlay_worn_voiro_overall_ankomon",			"fg": 857,	"rotates": false },
+      { "id": "overlay_worn_voiro_sneakers_ankomon",		"fg": 859,	"rotates": false },
+      { "id": "overlay_mutation_VOIRO_ANKOMON_KAMI_active",	"fg": 858,	"rotates": false },
+      { "id": "overlay_mutation_VOIRO_ANKOMON_KAMI",		"fg": 860,	"rotates": false }
+      ]
+    },
+    {
+      "file": "tiles/tiles_voiceroid_32x36_no7.png",
+      "sprite_height":36,
+     "sprite_offset_y":-4,
+      "tiles": [
+      { "id": "overlay_mutation_VOIRO_BODY_NO7",			"fg": 864,	"rotates": false },
+      { "id": "overlay_worn_voiro_shirt_no7",				"fg": 865,	"rotates": false },
+      { "id": "overlay_worn_voiro_headphones_no7",			"fg": 866,	"rotates": false },
+      { "id": "voiro_headphones_no7",						"fg": 866,	"rotates": false },
+      { "id": "overlay_worn_voiro_tights_no7",				"fg": 867,	"rotates": false }
+      ]
     }
   ]
   }

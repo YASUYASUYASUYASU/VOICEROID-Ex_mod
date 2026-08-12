@@ -577,6 +577,27 @@
         "name" : "スキン(モチノキョウコ)",
         "description" : "VOICEVOXのキャラクター、モチノ・キョウコの容姿になります。"
     },
+	{
+        "type" : "mutation",
+        "id" : "VOIRO_BODY_CUL",
+        "copy-from": "VOIRO_BODY_AI",
+        "name" : "スキン(WhiteCUL)",
+        "description" : "VOICEVOXのクールビューティなキャラクター、WhiteCulの容姿になります。"
+    },
+	{
+        "type" : "mutation",
+        "id" : "VOIRO_BODY_ANKOMON",
+        "copy-from": "VOIRO_BODY_AI",
+        "name" : "スキン(あんこもん)",
+        "description" : "VOICEVOXのキャラクター、あんこもんの容姿になります。"
+    },
+	{
+        "type" : "mutation",
+        "id" : "VOIRO_BODY_NO7",
+        "copy-from": "VOIRO_BODY_AI",
+        "name" : "スキン(No.7)",
+        "description" : "VOICEVOXのキャラクター、No.7の容姿になります。"
+    },
     {
       "type": "mutation",
       "id": "TAIL_FLUFFY_MOCHIKO",
@@ -741,5 +762,56 @@
         "profession": true,
         "active": true,
         "transform": { "target": "VOIRO_BODY_TUMUGI_KAMI_active", "msg_transform": "髪を出しました。", "active": true, "moves": 0 }
+    },
+    {
+      "type": "mutation",
+      "id": "VOIRO_ANKOMON_KAMI_active",
+      "name": "あんこもんの髪",
+      "points": 0,
+      "starting_trait" : true,
+      "description": "あんこもんの後ろ髪です。\n変異を有効化する事により後ろ髪を隠します。",
+        "valid": false,
+        "purifiable": false,
+        "profession": true,
+        "active": true,
+        "transform": { "target": "VOIRO_ANKOMON_KAMI", "msg_transform": "後ろ髪を隠しました。", "active": true, "moves": 0 }
+    },
+    {
+      "type": "mutation",
+      "id": "VOIRO_ANKOMON_KAMI",
+      "name": "あんこもんの髪(非表示)",
+      "points": 0,
+      "description": "あんこもんの後ろ髪です。\n変異を有効化する事により髪を出すようにします。",
+        "valid": false,
+        "purifiable": false,
+        "profession": true,
+        "active": true,
+        "transform": { "target": "VOIRO_ANKOMON_KAMI_active", "msg_transform": "後ろ髪を出しました。", "active": true, "moves": 0 }
+    },
+    {
+      "type": "mutation",
+      "id": "VOIRO_ANKOMON_MIMI_active",
+      "name": "あんこもん耳?",
+      "starting_trait" : true,
+      "points": 0,
+      "description": "あんこもんの耳です。謎です。\n変異を有効化する事により耳を隠します。",
+        "valid": false,
+        "purifiable": false,
+        "profession": true,
+        "active": true,
+        "transform": { "target": "VOIRO_ANKOMON_MIMI", "msg_transform": "耳を隠した！。", "active": true, "moves": 0 }
+    },
+    {
+      "type": "mutation",
+      "id": "VOIRO_ANKOMON_MIMI",
+      "name": "あんこもん耳?(非表示)",
+      "starting_trait" : true,
+      "points": 0,
+      "description": "あんこもんの耳です。謎です。\n変異を有効化する事により耳を隠します。",
+        "valid": false,
+        "purifiable": false,
+        "profession": true,
+        "active": true,
+        "transform": { "target": "VOIRO_ANKOMON_MIMI_active", "msg_transform": "耳を出した！。", "active": true, "moves": 0 }
     }
 ]

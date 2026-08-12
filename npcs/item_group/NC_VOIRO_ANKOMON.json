@@ -1,0 +1,16 @@
+[
+  {
+    "type": "item_group",
+    "id": "NC_ANKOMON_worn",
+    "subtype": "collection",
+    "entries": [ 
+      { "item": "panties" },
+      { "item": "bra" },
+      { "item": "voiro_sneakers_ankomon" },
+      { "item": "voiro_overall_ankomon" },
+      { "item": "voiro_dress_shirt_ankomon" },
+      { "item": "socks" },
+      { "item": "mbag" }
+    ]
+  }
+]

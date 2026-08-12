@@ -651,5 +651,50 @@
     "using": [ [ "sewing_standard", 10 ] ],
     "components": [ [ [ "leather", 5 ] ] ],
     "flags": [ "SECRET" ]
+  },
+  {
+    "type": "recipe",
+    "result": "voiro_sneakers_ankomon",
+    "category": "CC_VOIRO",
+    "subcategory": "CSC_VOIRO_ARMOR",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": "30 m",
+    "autolearn": false,
+    "book_learn": [ [ "mag_subculjapan2026", 1 ] ],
+    "using": [ [ "sewing_standard", 10 ] ],
+    "components": [ [ [ "leather", 5 ] ] ],
+    "flags": [ "SECRET" ]
+  },
+  {
+    "type": "recipe",
+    "result": "voiro_kneesocks_cul",
+    "category": "CC_VOIRO",
+    "subcategory": "CSC_VOIRO_ARMOR",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": false,
+    "book_learn": [ [ "mag_subculjapan2026", 2 ], [ "mag_virtualsinger", 3 ] ],
+    "using": [ [ "sewing_standard", 6 ] ],
+    "components": [ [ [ "rag", 4 ] ] ],
+    "flags": [ "SECRET" ]
+  },
+  {
+    "type": "recipe",
+    "result": "voiro_tights_no7",
+    "category": "CC_VOIRO",
+    "subcategory": "CSC_VOIRO_ARMOR",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": false,
+    "book_learn": [ [ "mag_subculjapan2026", 2 ], [ "mag_virtualsinger", 3 ] ],
+    "using": [ [ "sewing_standard", 6 ] ],
+    "components": [ [ [ "rag", 4 ] ] ],
+    "flags": [ "SECRET" ]
   }
 ]

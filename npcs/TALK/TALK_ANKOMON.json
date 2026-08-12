@@ -1,0 +1,19 @@
+[
+  {
+    "id":"TALK_ANKOMON_SAN_1",
+    "type":"talk_topic",
+    "dynamic_line":"ずんだもん?そんなやつ、知らないもん！",
+    "responses":[
+      { "text": "仲間になってください", "topic": "TALK_ANKOMON_SAN_2" },
+      { "text": "うーん…", "topic": "TALK_DONE" }
+    ] 
+  },
+  {
+    "id":"TALK_ANKOMON_SAN_2",
+    "type":"talk_topic",
+    "dynamic_line":"あとはあんこもんに任せるといいもん",
+    "responses":[ 
+      { "text": "…","effect": [ "follow", { "npc_first_topic": "    TALK_FRIEND" } ], "topic": "TALK_DONE" }
+    ] 
+  }
+] 
